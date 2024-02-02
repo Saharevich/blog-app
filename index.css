@@ -1,0 +1,134 @@
+body {
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+p, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1200px;
+    height: 100%;
+    padding: 150px 50px;
+}
+
+.posts-wrapper {
+    height: 100%;
+}
+
+.form__title, .post-list__title {
+    margin-bottom: 60px;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.post-form {
+    box-sizing: border-box;
+    width: calc(50% - 50px);
+    max-height: 500px;
+    flex-direction: column;
+}
+
+.post-list {
+    width: calc(50% - 50px);
+    box-sizing: border-box;
+}
+
+.input__title {
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.input-text {
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    min-height: 250px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+} 
+
+.input__title::placeholder, .input-text::placeholder {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #979797;
+}
+
+.post-btn {
+    padding: 10px 0px;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #fff;
+    border: none;
+    background-color: #0094FF;
+    transition: all .3s ease-in-out;
+}
+
+.post-btn:hover {
+    background-color: #45aef8;
+}
+
+.post__date {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0094FF;
+}
+
+.posts__title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #979797;
+}
+
+.post__title {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000;
+}
+
+.post__text {
+    margin-bottom: 50px;
+    word-wrap: break-word;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.posts__validation {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: red;
+}
+
+.posts__validation__hidden {
+    display: none;
+}

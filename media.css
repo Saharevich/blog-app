@@ -1,0 +1,74 @@
+@media (max-width: 700px) {
+    .container {
+        padding: 70px 25px;
+    }
+
+    .form__title, .post-list__title {
+        margin-bottom: 30px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .post-form {
+        width: calc(50% - 20px);
+    }
+    
+    .post-list {
+        width: calc(50% - 20px);
+    }
+
+    .input__title {
+        padding: 5px 10px;
+        height: 30px;
+        font-size: 18px;
+        line-height: 19.5px;
+    }
+    
+    .input-text {
+        padding: 5px 10px;
+        min-height: 125px;
+        height: 30px;
+        font-size: 18px;
+        line-height: 19.5px;
+    } 
+    
+    .input__title::placeholder, .input-text::placeholder {
+        font-size: 18px;
+        line-height: 19.5px;        
+        color: #979797;
+    }
+
+    .post-btn {
+        padding: 5px 0px;
+        font-size: 18px;
+        line-height: 19.5px;
+    }
+
+    .posts__title {
+        font-size: 18px;
+        line-height: 19.5px;
+    }
+
+    .post__date {
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 15px;
+    }
+    
+    .post__title {
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 19.5px;
+    }
+    
+    .post__text {
+        margin-bottom: 25px;
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .posts__validation {
+        font-size: 13px;
+        line-height: 15px;
+    }
+}
